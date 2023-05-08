@@ -28,3 +28,11 @@ void orang::setNama(string pNama){
 void siswa::setId(int pId) {
 	id=pId;
 }
+int main() {
+	orang joko;
+	joko.setNama("Joko Kumat");
+	siswa joko_siswa;
+	joko_siswa.setId(1);
+	joko_siswa.displayAll(joko);
+	return 0;
+}
